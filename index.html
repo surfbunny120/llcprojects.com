@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="logo">
+    <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="{{ site.title }}">
+  </div>
+
+  <p class="tagline">{{ site.description }}</p>
+
+  <section class="links">
+    <h2>Recent Work</h2>
+    {% for project in site.projects %}
+    <a href="{{ project.url }}" class="link-block" target="_blank" rel="noopener">
+      {{ project.title }}
+    </a>
+    {% endfor %}
+  </section>
+
+  <section class="socials">
+    <h2>Follow to Feel Good</h2>
+    {% for social in site.socials %}
+    <a href="{{ social.url }}" class="social-link" target="_blank" rel="noopener">
+      {{ social.title }}
+    </a>
+    {% endfor %}
+  </section>
+</div>

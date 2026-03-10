@@ -1,0 +1,31 @@
+title: "Lisa Lorraine Carson's Projects"
+description: "is a creative & consultant making a mess on the internet."
+url: "https://llcprojects.com"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+# Site settings
+logo: "/assets/images/logo.png"
+
+# Project links - edit these to update your site
+projects:
+  - title: "We Really Could"
+    url: "#"
+  - title: "Silly little ding dongs"
+    url: "#"
+  - title: "Water"
+    url: "#"
+
+# Social links
+socials:
+  - title: "Instagram"
+    url: "#"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

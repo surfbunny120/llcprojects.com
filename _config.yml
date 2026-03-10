@@ -11,10 +11,22 @@ plugins:
 # Site settings
 logo: "/assets/images/logo.png"
 
-# Project links - edit these to update your site
+# Featured project - We Really Could
+featured:
+  title: "We Really Could"
+  url: "https://wereallycould.com"
+  platforms:
+    - title: "Listen on Apple Podcasts"
+      url: "#"
+    - title: "Listen on Spotify Podcasts"
+      url: "#"
+    - title: "Listen or Watch on Substack"
+      url: "#"
+    - title: "Listen or Watch on YouTube"
+      url: "#"
+
+# Other project links
 projects:
-  - title: "We Really Could"
-    url: "https://wereallycould.com"
   - title: "Silly little ding dongs"
     url: "#"
   - title: "The Light Is On"

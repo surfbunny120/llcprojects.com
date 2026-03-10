@@ -9,8 +9,17 @@ layout: default
 
   <p class="tagline">{{ site.description }}</p>
 
+  <section class="featured">
+    <h2>{{ site.featured.title }}</h2>
+    {% for platform in site.featured.platforms %}
+    <a href="{{ platform.url }}" class="link-block" target="_blank" rel="noopener">
+      {{ platform.title }}
+    </a>
+    {% endfor %}
+  </section>
+
   <section class="links">
-    <h2>Recent Work</h2>
+    <h2>Other Projects</h2>
     {% for project in site.projects %}
     <a href="{{ project.url }}" class="link-block" target="_blank" rel="noopener">
       {{ project.title }}

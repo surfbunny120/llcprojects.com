@@ -50,6 +50,18 @@ h2 {
   text-underline-offset: 3px;
 }
 
+/* Featured project */
+.featured {
+  margin-bottom: 60px;
+}
+
+.featured h2 {
+  font-size: 1.1rem;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
 /* Link blocks */
 .links {
   margin-bottom: 60px;

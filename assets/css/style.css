@@ -16,7 +16,7 @@ body {
 
 /* Container */
 .container {
-  max-width: 480px;
+  max-width: 560px;
   margin: 0 auto;
   padding: 60px 24px 80px;
 }
@@ -55,7 +55,44 @@ h2 {
   margin-bottom: 60px;
 }
 
-.featured h2 {
+.main-project {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-bottom: 12px;
+}
+
+.main-project-label {
+  text-decoration: none;
+}
+
+.main-project a {
+  color: #7c3aed;
+  text-decoration: none;
+}
+
+.main-project a:hover {
+  text-decoration: underline;
+}
+
+.featured-blurb {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.platform-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.platform-col h2 {
+  margin-bottom: 12px;
 }
 
 /* Link blocks */

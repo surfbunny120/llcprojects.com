@@ -15,14 +15,16 @@ logo: "/assets/images/logo.png"
 featured:
   title: "We Really Could"
   url: "https://wereallycould.com"
-  platforms:
-    - title: "Apple Podcasts"
-      url: "#"
-    - title: "Spotify"
-      url: "#"
+  blurb: "A weekly podcast about ending billionaires. Because $999,999,999 is enough to live like a king without actually being one."
+  watch:
     - title: "Substack"
       url: "#"
     - title: "YouTube"
+      url: "#"
+  listen:
+    - title: "Apple Podcasts"
+      url: "#"
+    - title: "Spotify Podcasts"
       url: "#"
 
 # Other project links

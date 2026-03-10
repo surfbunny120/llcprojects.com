@@ -31,14 +31,14 @@ featured:
 projects:
   - title: "The Pitch"
     url: "https://structurethepitch.com"
-  - title: "Silly little ding dongs"
-    url: "#"
   - title: "The Light Is On"
     url: "https://thelightison.com"
-  - title: "Do Something, Jackass"
-    url: "https://dosomethingjackass.com"
   - title: "Colonial Bloomers"
     url: "https://colonialbloomers.com"
+  - title: "Do Something, Jackass"
+    url: "https://dosomethingjackass.com"
+  - title: "Silly little ding dongs"
+    url: "#"
 
 # Social links
 socials:

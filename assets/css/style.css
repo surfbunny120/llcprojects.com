@@ -55,26 +55,18 @@ h2 {
   margin-bottom: 60px;
 }
 
-.main-project {
-  font-size: 0.75rem;
+.main-project-title {
+  font-size: 1.15rem;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  text-decoration: underline;
-  text-underline-offset: 3px;
   margin-bottom: 12px;
 }
 
-.main-project-label {
-  text-decoration: none;
-}
-
-.main-project a {
+.main-project-title a {
   color: #071EF6;
   text-decoration: none;
 }
 
-.main-project a:hover {
+.main-project-title a:hover {
   text-decoration: underline;
 }
 

@@ -64,11 +64,14 @@ h2 {
   text-decoration: none;
   color: #111;
   font-size: 1.05rem;
-  transition: background 0.15s ease, transform 0.1s ease;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.1s ease;
 }
 
 .link-block:hover {
-  background: #f5f5f5;
+  background: #ff1493;
+  color: #fff;
+  border-color: #ff1493;
   transform: translateY(-1px);
 }
 

@@ -16,13 +16,13 @@ featured:
   title: "We Really Could"
   url: "https://wereallycould.com"
   platforms:
-    - title: "Listen on Apple Podcasts"
+    - title: "Apple Podcasts"
       url: "#"
-    - title: "Listen on Spotify Podcasts"
+    - title: "Spotify"
       url: "#"
-    - title: "Listen or Watch on Substack"
+    - title: "Substack"
       url: "#"
-    - title: "Listen or Watch on YouTube"
+    - title: "YouTube"
       url: "#"
 
 # Other project links

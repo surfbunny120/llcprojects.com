@@ -23,7 +23,7 @@ projects:
 # Social links
 socials:
   - title: "Instagram"
-    url: "#"
+    url: "https://www.instagram.com/llcarson2/"
 
 exclude:
   - Gemfile

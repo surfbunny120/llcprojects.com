@@ -93,6 +93,53 @@ h2 {
   text-decoration: underline;
 }
 
+/* Email signup */
+.signup {
+  margin-bottom: 40px;
+}
+
+.email-form {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.email-form input[type="email"] {
+  flex: 1;
+  padding: 14px 16px;
+  border: 1.5px solid #111;
+  border-radius: 6px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  outline: none;
+}
+
+.email-form input[type="email"]:focus {
+  border-color: #ff1493;
+}
+
+.email-form button {
+  padding: 14px 24px;
+  background: #111;
+  color: #fff;
+  border: 1.5px solid #111;
+  border-radius: 6px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.email-form button:hover {
+  background: #ff1493;
+  border-color: #ff1493;
+}
+
+.form-message {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
 /* Responsive */
 @media (min-width: 768px) {
   .container {

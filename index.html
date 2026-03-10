@@ -26,4 +26,42 @@ layout: default
     </a>
     {% endfor %}
   </section>
+
+  <section class="signup">
+    <h2>Stay in the Loop</h2>
+    <form id="email-form" class="email-form">
+      <input type="email" name="email" placeholder="your email" required>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="form-message" class="form-message"></p>
+  </section>
 </div>
+
+<script>
+  document.getElementById('email-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    var email = this.email.value;
+    var msg = document.getElementById('form-message');
+    var btn = this.querySelector('button');
+    btn.disabled = true;
+    btn.textContent = '...';
+
+    fetch('GOOGLE_SCRIPT_URL', {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: email })
+    }).then(function() {
+      msg.textContent = 'You\'re in!';
+      msg.style.color = '#111';
+      btn.textContent = 'Submit';
+      btn.disabled = false;
+      document.getElementById('email-form').reset();
+    }).catch(function() {
+      msg.textContent = 'Something went wrong. Try again?';
+      msg.style.color = '#ff1493';
+      btn.textContent = 'Submit';
+      btn.disabled = false;
+    });
+  });
+</script>

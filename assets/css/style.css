@@ -129,6 +129,11 @@ h2 {
   color: #FC00F9;
 }
 
+/* Contact / Email Me */
+.contact {
+  margin-bottom: 40px;
+}
+
 /* Email signup */
 .signup {
   margin-bottom: 40px;

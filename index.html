@@ -52,6 +52,11 @@ layout: default
     {% endfor %}
   </section>
 
+  <section class="contact">
+    <h2>Email Me</h2>
+    <a href="mailto:LLCarson2@gmail.com" class="social-link">LLCarson2@gmail.com</a>
+  </section>
+
   <section class="signup">
     <h2>Stay in the Loop About New Projects</h2>
     <form id="email-form" class="email-form">
@@ -84,7 +89,7 @@ layout: default
       document.getElementById('email-form').reset();
     }).catch(function() {
       msg.textContent = 'Something went wrong. Try again?';
-      msg.style.color = '#ff1493';
+      msg.style.color = '#FC00F9';
       btn.textContent = 'Submit';
       btn.disabled = false;
     });

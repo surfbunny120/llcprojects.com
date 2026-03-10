@@ -70,7 +70,7 @@ h2 {
 }
 
 .main-project a {
-  color: #7c3aed;
+  color: #071EF6;
   text-decoration: none;
 }
 
@@ -114,9 +114,9 @@ h2 {
 }
 
 .link-block:hover {
-  background: #ff1493;
+  background: #FC00F9;
   color: #fff;
-  border-color: #ff1493;
+  border-color: #FC00F9;
   transform: translateY(-1px);
 }
 
@@ -126,7 +126,7 @@ h2 {
 }
 
 .social-link {
-  color: #2563eb;
+  color: #071EF6;
   text-decoration: none;
   font-size: 1.05rem;
   display: inline-block;
@@ -160,7 +160,7 @@ h2 {
 }
 
 .email-form input[type="email"]:focus {
-  border-color: #ff1493;
+  border-color: #FC00F9;
 }
 
 .email-form button {
@@ -176,8 +176,8 @@ h2 {
 }
 
 .email-form button:hover {
-  background: #ff1493;
-  border-color: #ff1493;
+  background: #FC00F9;
+  border-color: #FC00F9;
 }
 
 .form-message {

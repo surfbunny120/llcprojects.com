@@ -42,6 +42,8 @@ projects:
 socials:
   - title: "Instagram"
     url: "https://www.instagram.com/llcarson2/"
+  - title: "LinkedIn"
+    url: "https://www.linkedin.com/in/llcarson/"
 
 exclude:
   - Gemfile

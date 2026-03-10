@@ -57,17 +57,17 @@ h2 {
 
 .main-project-title {
   font-size: 1.15rem;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 12px;
 }
 
 .main-project-title a {
   color: #071EF6;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .main-project-title a:hover {
-  text-decoration: underline;
+  color: #FC00F9;
 }
 
 .featured-blurb {
@@ -119,15 +119,14 @@ h2 {
 
 .social-link {
   color: #071EF6;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 1.05rem;
-  display: inline-block;
-  margin-right: 20px;
+  display: block;
   margin-top: 4px;
 }
 
 .social-link:hover {
-  text-decoration: underline;
+  color: #FC00F9;
 }
 
 /* Email signup */

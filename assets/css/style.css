@@ -181,6 +181,12 @@ h2 {
   font-size: 0.9rem;
 }
 
+/* Support button */
+.support .link-block:hover {
+  background: #28FF35;
+  border-color: #28FF35;
+}
+
 /* Responsive */
 @media (min-width: 768px) {
   .container {

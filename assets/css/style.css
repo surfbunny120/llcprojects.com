@@ -185,6 +185,7 @@ h2 {
 .support .link-block:hover {
   background: #28FF35;
   border-color: #28FF35;
+  color: #111;
 }
 
 /* Responsive */

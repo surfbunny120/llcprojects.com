@@ -11,21 +11,10 @@ plugins:
 # Site settings
 logo: "/assets/images/logo.png"
 
-# Featured project - We Really Could
+# Featured project - The Pitch
 featured:
-  title: "We Really Could"
-  url: "https://wereallycould.com"
-  blurb: "A weekly podcast about ending billionaires. Because $999,999,999 is enough to live like a king without actually being one."
-  watch:
-    - title: "Substack"
-      url: "#"
-    - title: "YouTube"
-      url: "#"
-  listen:
-    - title: "Apple Podcasts"
-      url: "#"
-    - title: "Spotify Podcasts"
-      url: "#"
+  title: "The Pitch"
+  url: "#"
 
 # Other project links
 projects:

@@ -11,27 +11,8 @@ layout: default
 
   <section class="featured">
     <h2>Main Project</h2>
-    <p class="main-project-title"><a href="{{ site.featured.url }}" target="_blank" rel="noopener">{{ site.featured.title }}</a></p>
-    <p class="featured-blurb">{{ site.featured.blurb }}</p>
-
-    <div class="platform-grid">
-      <div class="platform-col">
-        <h2>Watch</h2>
-        {% for item in site.featured.watch %}
-        <a href="{{ item.url }}" class="link-block" target="_blank" rel="noopener">
-          {{ item.title }}
-        </a>
-        {% endfor %}
-      </div>
-      <div class="platform-col">
-        <h2>Listen</h2>
-        {% for item in site.featured.listen %}
-        <a href="{{ item.url }}" class="link-block" target="_blank" rel="noopener">
-          {{ item.title }}
-        </a>
-        {% endfor %}
-      </div>
-    </div>
+    <p class="main-project-title">{{ site.featured.title }}</p>
+    <p class="featured-blurb">A story about billionaires that I want to pitch to Adam McKay, and/or Jesse Armstrong, and/or Jon Lovett and/or any other billionaire-skeptic media types. Help me make it better by watching and sharing your <a href="https://feedbackforlisa.com" class="inline-link">feedback</a>.</p>
   </section>
 
   <section class="links">
